@@ -1722,6 +1722,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "done": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -2282,6 +2285,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "done": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -4314,6 +4320,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -4874,6 +4883,9 @@
                                   }
                                 }
                               }
+                            },
+                            "done": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -6824,6 +6836,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7384,6 +7399,9 @@
                                   }
                                 }
                               }
+                            },
+                            "done": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -9325,6 +9343,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -9886,6 +9907,9 @@
                                 }
                               }
                             },
+                            "done": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10144,6 +10168,9 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "done": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",

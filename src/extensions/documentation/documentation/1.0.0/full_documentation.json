@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-02-23T22:30:09.850Z"
+    "x-generation-date": "2022-02-23T22:53:34.192Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1772,6 +1772,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "done": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -2332,6 +2335,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "done": {
+                                "type": "boolean"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -4364,6 +4370,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -4924,6 +4933,9 @@
                                   }
                                 }
                               }
+                            },
+                            "done": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -6874,6 +6886,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7434,6 +7449,9 @@
                                   }
                                 }
                               }
+                            },
+                            "done": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -9375,6 +9393,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -9936,6 +9957,9 @@
                                 }
                               }
                             },
+                            "done": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10194,6 +10218,9 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "done": {
+                        "type": "boolean"
                       },
                       "createdAt": {
                         "type": "string",
@@ -12133,6 +12160,9 @@
                                                                 }
                                                               }
                                                             }
+                                                          },
+                                                          "done": {
+                                                            "type": "boolean"
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
@@ -14353,6 +14383,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "done": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -16538,6 +16571,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "done": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -18665,6 +18701,9 @@
                                                               }
                                                             }
                                                           }
+                                                        },
+                                                        "done": {
+                                                          "type": "boolean"
                                                         },
                                                         "createdAt": {
                                                           "type": "string",
@@ -21410,6 +21449,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "done": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -23999,6 +24041,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -26514,6 +26559,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "done": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -29011,6 +29059,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "done": {
+                                                        "type": "boolean"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
