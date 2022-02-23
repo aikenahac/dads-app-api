@@ -1,3 +1,6 @@
-# Strapi application
+# Dad's App API
 
-A quick description of your strapi application
+The backend for the application I made for my dad's birthday.
+
+## Documentation
+The documentation is available on `/documentation` in the Swagger format.
