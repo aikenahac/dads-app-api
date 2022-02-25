@@ -69,14 +69,15 @@
       "target": "api::photo.photo",
       "mappedBy": "uploader"
     },
-    "profile_picture": {
+    "ProfilePicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "activities": {
       "type": "relation",
@@ -89,6 +90,12 @@
       "relation": "manyToOne",
       "target": "api::family.family",
       "inversedBy": "members"
+    },
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-02-23T22:53:34.192Z"
+    "x-generation-date": "2022-02-25T14:00:55.467Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -27,7 +27,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1337/api",
+      "url": "http://localhost:6767/api",
       "description": "Development server"
     }
   ],
@@ -992,7 +992,7 @@
                                               }
                                             }
                                           },
-                                          "profile_picture": {
+                                          "ProfilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -1914,6 +1914,12 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "FirstName": {
+                                            "type": "string"
+                                          },
+                                          "LastName": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -3590,7 +3596,7 @@
                                             }
                                           }
                                         },
-                                        "profile_picture": {
+                                        "ProfilePicture": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -4512,6 +4518,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "FirstName": {
+                                          "type": "string"
+                                        },
+                                        "LastName": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -6106,7 +6118,7 @@
                                             }
                                           }
                                         },
-                                        "profile_picture": {
+                                        "ProfilePicture": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -7028,6 +7040,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "FirstName": {
+                                          "type": "string"
+                                        },
+                                        "LastName": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -8613,7 +8631,7 @@
                                             }
                                           }
                                         },
-                                        "profile_picture": {
+                                        "ProfilePicture": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -9535,6 +9553,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "FirstName": {
+                                          "type": "string"
+                                        },
+                                        "LastName": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -11381,7 +11405,7 @@
                                                 }
                                               }
                                             },
-                                            "profile_picture": {
+                                            "ProfilePicture": {
                                               "type": "object",
                                               "properties": {
                                                 "data": {
@@ -12303,6 +12327,12 @@
                                                   }
                                                 }
                                               }
+                                            },
+                                            "FirstName": {
+                                              "type": "string"
+                                            },
+                                            "LastName": {
+                                              "type": "string"
                                             },
                                             "createdAt": {
                                               "type": "string",
@@ -13603,7 +13633,7 @@
                                               }
                                             }
                                           },
-                                          "profile_picture": {
+                                          "ProfilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -14525,6 +14555,12 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "FirstName": {
+                                            "type": "string"
+                                          },
+                                          "LastName": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -15791,7 +15827,7 @@
                                               }
                                             }
                                           },
-                                          "profile_picture": {
+                                          "ProfilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -16713,6 +16749,12 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "FirstName": {
+                                            "type": "string"
+                                          },
+                                          "LastName": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -17922,7 +17964,7 @@
                                               }
                                             }
                                           },
-                                          "profile_picture": {
+                                          "ProfilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -18844,6 +18886,12 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "FirstName": {
+                                            "type": "string"
+                                          },
+                                          "LastName": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -20669,7 +20717,7 @@
                                               }
                                             }
                                           },
-                                          "profile_picture": {
+                                          "ProfilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -21591,6 +21639,12 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "FirstName": {
+                                            "type": "string"
+                                          },
+                                          "LastName": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -23261,7 +23315,7 @@
                                             }
                                           }
                                         },
-                                        "profile_picture": {
+                                        "ProfilePicture": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -24183,6 +24237,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "FirstName": {
+                                          "type": "string"
+                                        },
+                                        "LastName": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -25779,7 +25839,7 @@
                                             }
                                           }
                                         },
-                                        "profile_picture": {
+                                        "ProfilePicture": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -26701,6 +26761,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "FirstName": {
+                                          "type": "string"
+                                        },
+                                        "LastName": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -28280,7 +28346,7 @@
                                             }
                                           }
                                         },
-                                        "profile_picture": {
+                                        "ProfilePicture": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -29202,6 +29268,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "FirstName": {
+                                          "type": "string"
+                                        },
+                                        "LastName": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
