@@ -32,6 +32,15 @@
       "relation": "oneToMany",
       "target": "api::photo.photo",
       "mappedBy": "family"
+    },
+    "FamilyPicture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
