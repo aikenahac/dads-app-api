@@ -7,7 +7,7 @@ module.exports = ( plugin ) => {
     }
 
     // ctx.body = await sanitizeOutput(user, ctx);
-    ctx.body = await strapi.query("plugin::users-permissions.user").findOne({ where: { id: user.id }, populate: ['family']})
+    ctx.body = await strapi.query("plugin::users-permissions.user").findOne({ where: { id: user.id }, populate: ['family', 'profilePicture']})
   };
 
   return plugin;
