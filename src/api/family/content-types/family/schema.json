@@ -33,7 +33,7 @@
       "target": "api::photo.photo",
       "mappedBy": "family"
     },
-    "FamilyPicture": {
+    "familyPicture": {
       "type": "media",
       "multiple": false,
       "required": false,

@@ -1422,7 +1422,7 @@
                                                                           }
                                                                         }
                                                                       },
-                                                                      "FamilyPicture": {
+                                                                      "familyPicture": {
                                                                         "type": "object",
                                                                         "properties": {
                                                                           "data": {
@@ -1889,7 +1889,7 @@
                                                 }
                                               }
                                             },
-                                            "ProfilePicture": {
+                                            "profilePicture": {
                                               "type": "object",
                                               "properties": {
                                                 "data": {
@@ -2296,10 +2296,10 @@
                                                 }
                                               }
                                             },
-                                            "FirstName": {
+                                            "firstName": {
                                               "type": "string"
                                             },
-                                            "LastName": {
+                                            "lastName": {
                                               "type": "string"
                                             },
                                             "createdAt": {
@@ -2391,7 +2391,7 @@
                                   }
                                 }
                               },
-                              "FamilyPicture": {
+                              "familyPicture": {
                                 "type": "object",
                                 "properties": {
                                   "data": {
@@ -4488,7 +4488,7 @@
                                                                         }
                                                                       }
                                                                     },
-                                                                    "FamilyPicture": {
+                                                                    "familyPicture": {
                                                                       "type": "object",
                                                                       "properties": {
                                                                         "data": {
@@ -4955,7 +4955,7 @@
                                               }
                                             }
                                           },
-                                          "ProfilePicture": {
+                                          "profilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -5362,10 +5362,10 @@
                                               }
                                             }
                                           },
-                                          "FirstName": {
+                                          "firstName": {
                                             "type": "string"
                                           },
-                                          "LastName": {
+                                          "lastName": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -5457,7 +5457,7 @@
                                 }
                               }
                             },
-                            "FamilyPicture": {
+                            "familyPicture": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -6085,7 +6085,7 @@
                           "example": "string or id"
                         }
                       },
-                      "FamilyPicture": {
+                      "familyPicture": {
                         "oneOf": [
                           {
                             "type": "integer"
@@ -7555,7 +7555,7 @@
                                                                         }
                                                                       }
                                                                     },
-                                                                    "FamilyPicture": {
+                                                                    "familyPicture": {
                                                                       "type": "object",
                                                                       "properties": {
                                                                         "data": {
@@ -8022,7 +8022,7 @@
                                               }
                                             }
                                           },
-                                          "ProfilePicture": {
+                                          "profilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -8429,10 +8429,10 @@
                                               }
                                             }
                                           },
-                                          "FirstName": {
+                                          "firstName": {
                                             "type": "string"
                                           },
-                                          "LastName": {
+                                          "lastName": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -8524,7 +8524,7 @@
                                 }
                               }
                             },
-                            "FamilyPicture": {
+                            "familyPicture": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -10530,7 +10530,7 @@
                                                                         }
                                                                       }
                                                                     },
-                                                                    "FamilyPicture": {
+                                                                    "familyPicture": {
                                                                       "type": "object",
                                                                       "properties": {
                                                                         "data": {
@@ -10997,7 +10997,7 @@
                                               }
                                             }
                                           },
-                                          "ProfilePicture": {
+                                          "profilePicture": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
@@ -11404,10 +11404,10 @@
                                               }
                                             }
                                           },
-                                          "FirstName": {
+                                          "firstName": {
                                             "type": "string"
                                           },
-                                          "LastName": {
+                                          "lastName": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -11499,7 +11499,7 @@
                                 }
                               }
                             },
-                            "FamilyPicture": {
+                            "familyPicture": {
                               "type": "object",
                               "properties": {
                                 "data": {
@@ -12138,7 +12138,7 @@
                           "example": "string or id"
                         }
                       },
-                      "FamilyPicture": {
+                      "familyPicture": {
                         "oneOf": [
                           {
                             "type": "integer"
