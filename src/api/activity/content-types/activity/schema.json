@@ -40,6 +40,12 @@
       "type": "boolean",
       "default": false,
       "required": false
+    },
+    "family": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::family.family",
+      "inversedBy": "activities"
     }
   }
 }

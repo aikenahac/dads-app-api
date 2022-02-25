@@ -4,7 +4,8 @@
   "info": {
     "singularName": "family",
     "pluralName": "families",
-    "displayName": "Family"
+    "displayName": "Family",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,18 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "plugin::users-permissions.user",
+      "mappedBy": "family"
+    },
+    "activities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::activity.activity",
+      "mappedBy": "family"
+    },
+    "album": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::photo.photo",
       "mappedBy": "family"
     }
   }
